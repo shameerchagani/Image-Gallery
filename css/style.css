@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    
+    padding: 0;
+    background: #333;
+}
+header h1{
+    width: 100%;
+    background: #d3d3d3;
+    text-align: center;
+    font-family: sans-serif;
+    margin:0;
+
+}
+
+div.container{
+    max-width: 560px;
+    padding: 5px;
+    margin: auto;
+    
+}
+
+div.main-image img,
+.imgs img{
+    width: 100%;
+    border: 2px solid #fff;
+}
+
+.imgs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    
+  }
+.imgs img{
+    cursor: pointer;
+}
